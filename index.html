@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a href="#">Aplicacion Tareas</a>
+      </div>
+    </div>
+
+    <div class="formulario">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <form action="" id="informacion">
+              <h1>Ingrese su datos Personales</h1>
+
+              <input type="text" id="nombre" placeholder="Ingrese su nombre" />
+              <input type="text" id="dni" placeholder="Ingrese su DNI" />
+              <textarea
+                name="tarea"
+                id="mensaje"
+                cols="25"
+                rows="10"
+                placeholder="Ingrese su Mensaje"
+              ></textarea>
+
+              <button type="submit">Agregar</button>
+            </form>
+          </div>
+          <div class="col2">
+            <h1>Tabla de tareas</h1>
+
+            <div class="personas" id="mostrar">
+              <h1>Integrante <span> : Carlos Orozco</span></h1>
+              <p>
+                Tarea :
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                  fuga nam rerum dolores dignissimos quam consequatur.
+                  Necessitatibus eum, aperiam dolore aut fuga, odio corporis id
+                  eveniet officiis at commodi sit!</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

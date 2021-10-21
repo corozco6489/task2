@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+html {
+  font-size: 61%;
+}
+
+.navbar {
+  background: #000016;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.navbar .container a {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.formulario .container {
+  margin: 100px;
+}
+.formulario .container .row {
+  display: flex;
+}
+
+.formulario .container .row .col1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background: chartreuse;
+  border-radius: 15px;
+  box-shadow: 15px -17px 33px 2px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 15px -17px 33px 2px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 15px -17px 33px 2px rgba(0, 0, 0, 0.69);
+}
+.formulario .container .row .col1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.formulario .container .row .col1 form h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #000016;
+  margin-top: 2rem;
+}
+.formulario .container .row .col1 form {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario .container .row .col1 form input {
+  width: 60%;
+  height: 3rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.formulario .container .row .col1 form textarea {
+  width: 60%;
+  margin-top: 2rem;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+.formulario .container .row .col1 form button {
+  width: 60%;
+  height: 4rem;
+  margin-bottom: 2rem;
+
+  align-items: center;
+  background-color: rgb(246, 21, 14);
+  border-radius: 15px;
+}
+.formulario .container .row .col1 form button:hover {
+  box-shadow: 15px -6px 33px 2px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 15px -6px 33px 2px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 15px -6px 33px 2px rgba(0, 0, 0, 0.69);
+  cursor: pointer;
+  background: chocolate;
+}
+.formulario .container .row .col2 {
+  margin-left: 100px;
+  text-align: center;
+  width: 50%;
+}
+.formulario .container .row .col2 h1 {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-decoration: springgreen;
+}
+
+.formulario .container .row .col2 .personas {
+  text-align: start;
+}
+.formulario .container .row .col2 .personas h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+  background: rgb(63, 126, 228);
+  border-radius: 15px;
+}
+.formulario .container .row .col2 .personas p {
+  font-size: 2rem;
+  text-align: start;
+  margin: 1rem;
+  border: 1px solid rgb(243, 240, 240);
+  background: chartreuse;
+  padding: 2rem;
+  color: #000016;
+}
+.formulario .container .row .col2 .personas button {
+  background: rgb(255, 38, 0);
+  color: #e7e7ec;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 55%;
+  }
+  .formulario .container .row {
+    display: block;
+  }
+
+  .formulario .container .row .col1 {
+    width: 90%;
+  }
+  .formulario .container .row .col2 {
+    width: 90%;
+    margin: 0;
+  }
+  .formulario .container {
+    margin: 0 auto;
+  }
+
+  .formulario .container .row .col2 .personas {
+    text-align: center;
+  }
+}
